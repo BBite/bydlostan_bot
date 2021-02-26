@@ -4,7 +4,7 @@ from loader import dp
 
 
 @dp.message_handler(commands='tag_bydlostan')
-async def bot_help(message: types.Message):
+async def tag_all(message: types.Message):
     answer = ''
     answer += '<a href="tg://user?id=576927517">Би</a>'
     answer += '<a href="tg://user?id=695444908">дло</a>'
